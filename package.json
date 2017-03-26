@@ -1,0 +1,16 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "- Nonblocking, I/O Thread(File, DB) waiting Defend\r - 용도 : Cpu의존이 낮고, connection을 동시 처리해야 하는 경우",
+  "dependencies":{
+    "express" : "*",
+    "ejs" : "*",
+    "socket.io" : "*"
+  },
+  "main": "hello_world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
